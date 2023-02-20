@@ -236,6 +236,17 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 //CODE HERE
 
 
+function thatsOdd(number){
+  if(number % 2 === 0){
+    return "That's not odd!"
+  }else{
+    return "That is odd indeed!"
+  }
+}
+
+let oddChecker = thatsOdd(2);
+console.log(oddChecker);
+
 ////////////////// PROBLEM 14 ////////////////////
 
 /*
@@ -247,6 +258,10 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
+
+let bestMovie = MOVEIEPARAM => {
+  return "MOVEIEPARAM is the best movie ever!"
+}
 
 
 ////////////////// PROBLEM 15 ////////////////////
