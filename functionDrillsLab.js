@@ -259,10 +259,20 @@ console.log(oddChecker);
 
 //CODE HERE
 
-let bestMovie = MOVEIEPARAM => {
-  return "MOVEIEPARAM is the best movie ever!"
+let bestMovie = (MOVEIEPARAM) => {
+  return `${MOVEIEPARAM} is the best movie ever`
 }
 
+console.log(bestMovie("Shrek"));
+
+// let exclaimThree = str => str.toUpperCase() + '!!!'
+// console.log(exclaimThree("arrow"));
+
+// let jsNinja = () => {
+//   return "I am a JavaScript ninja!"
+// };
+
+// console.log(jsNinja());
 
 ////////////////// PROBLEM 15 ////////////////////
 let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
